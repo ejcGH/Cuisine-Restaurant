@@ -57,61 +57,102 @@
             </li>
           </ul>
         </div>
-        <button type="button" class="btn btn-primary m-2">Order Now</button>
-        <button type="button" class="btn btn-secondary">Find a Location</button>
+        <button type="button" class="btn btn-primary m-3">Order Now</button>
       </div>
     </nav>
 
-    <div>
-      <div class="row">
-        <img class="img-fluid w-100" src="images/phoviet.jpg" alt="food" />
+    <div class="card">
+      <img class="card-img" src="images/phoviet.jpg" alt="food" />
+      <div class="card-img-overlay">
+        <div class="card-body text-light">
+          <p class="text card-title display-3 font-weight-bolder">
+            These are the hours
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="containerBox">
+      <div class="text">
+        <h3>Hours</h3>
+      </div>
+      <img class="img-fluid w-100" src="images/phoviet.jpg" alt="food" />
+    </div> -->
+
+      <div class="food-cards container-fluid">
+        <div class="row">
+          <div class="card border-dark mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card border-dark mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card border-dark mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card border-dark mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="food-cards container-fluid">
-      <div class="row">
-        <div class="card border-dark mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body text-dark">
-            <h5 class="card-title">Dark card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="card border-dark mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body text-dark">
-            <h5 class="card-title">Dark card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="card border-dark mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body text-dark">
-            <h5 class="card-title">Dark card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="card border-dark mb-3" style="max-width: 18rem">
-          <div class="card-header">Header</div>
-          <div class="card-body text-dark">
-            <h5 class="card-title">Dark card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
+    <form class="container-form">
+      <header class="h1 m-3">Contact Us</header>
+      <div class="form-group m-3">
+        <label for="exampleFormControlSelect1">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your name"
+        />
       </div>
-    </div>
-    <hr />
+      <div class="form-group m-3">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="enter your email"
+        />
+      </div>
+      <div class="form-group m-3">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="button" class="btn btn-primary m-3">Contact Us</button>
+    </form>
   </body>
 </html>

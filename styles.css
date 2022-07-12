@@ -1,7 +1,18 @@
 .row {
   margin: 0;
+  position: relative;
 }
 
 .nav button {
   position: relative;
+}
+
+.card-img {
+  position: relative;
+  z-index: 0;
+}
+
+.text {
+  position: absolute;
+  z-index: 1;
 }
