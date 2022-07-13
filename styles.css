@@ -12,7 +12,13 @@
   z-index: 0;
 }
 
-.text {
-  position: absolute;
-  z-index: 1;
+.contact-in {
+  display: flex;
+  height: 100%;
+}
+
+.contact-form {
+  display: flex;
+  position: relative;
+  float: right;
 }
